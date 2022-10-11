@@ -7,7 +7,8 @@ const ProfileImg = ({
   const defaultProfilePic = require('../../assets/default-user-img.jpeg');
 
   return (
-    <img src={src || defaultProfilePic} className={`rounded-full h-${size} w-${size}`} alt="" />
+    //<img src={src || defaultProfilePic} className={`rounded-full h-${size} w-${size}`} alt="" />
+    <img src={defaultProfilePic} className={`rounded-full h-${size} w-${size}`} alt="" />
   );
 };
 
