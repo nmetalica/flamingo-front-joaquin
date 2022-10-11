@@ -10,7 +10,7 @@ const ProfileImg = ({
 
   return (
     // <img src={src || defaultProfilePic} className={`rounded-full h-${size} w-${size}`} alt="" />
-    <FontAwesomeIcon className="cursor-pointer text-primary" icon={faUser} size="xl" />
+    <FontAwesomeIcon className="cursor-pointer text-primary px-6" icon={faUser} size="xl" />
 
   );
 };
