@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="h-14 bg-primary flex text-white w-screen -ml-1 sm:-ml-6 items-center justify-between">
       <div />
       <div className="justify-self-center">
-        Flamingo investing
+        Flamingo Investing - v.0.1.
       </div>
       <div className="space-x-4 flex h-7 pr-8">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="white" className="cursor-pointer" onClick={() => goTo('https://www.linkedin.com')}>
