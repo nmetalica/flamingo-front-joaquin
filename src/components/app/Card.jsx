@@ -37,10 +37,10 @@ const Card = ({
     <Container className={`rounded-xl transition-all relative border border-black-200 ${dynamicClass()} ${className}`} onClick={handleClick}>
       <div className="absolute top-[50%] left-2 w-16 h-16 mini-preview-translate">{logo}</div>
       <div className="h-[50%]">{preview}</div>
-      <div className="h-[50%] space-y-2 pt-6 px-6">
-        <div className="h-[18%] text-2xl md:text-3xl font-extrabold">{title}</div>
-        <div className="h-[50%]">{content}</div>
-        <div className="h-[20%]">{footer}</div>
+      <div className="h-[50%] overflow-hidden pt-6 px-6">
+        <div className="h-fit text-2xl md:text-3xl font-extrabold">{title}</div>
+        <div className="h-fit pt-3">{content}</div>
+        <div className="h-8 absolute pt-2 bottom-0">{footer}</div>
       </div>
     </Container>
   );
